@@ -6,9 +6,13 @@
         height: 5px;
         background-color: white;
         margin: 6px 0;
-        transition: 0.5s;
+        transition: 0.3s;
         border-radius: 5px;
-    }
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+}
 }
 
 @media(min-width: 540px){

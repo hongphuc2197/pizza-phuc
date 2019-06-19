@@ -16,7 +16,7 @@ class drawerToggle extends Component {
     }
 
     render(){
-        const { state: { toggleClass } } = this
+    const { state: { toggleClass } } = this
       return(
         <div>
             <div onClick = {this.addActiveClass} className ='DrawerToggleContainer'>
