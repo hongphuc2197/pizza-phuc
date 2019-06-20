@@ -9,6 +9,8 @@ class drawerToggle extends Component {
             toggleClass:''
         };
     }
+
+    // eslint-disable-next-line
     addActiveClass = () => {
         const currentState = this.state.active;
         this.setState({ active: !currentState, toggleClass: this.state.toggleClass === 'change' ? '' : 'change' });
