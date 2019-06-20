@@ -17,7 +17,6 @@ class Footer extends Component {
                     <li className="iconCopy"><a href='#/' >PRIVACY POLICY</a></li>
                   </ul>
                 </div>
-
               </div>
               <div className='right-footer merge2'>
                 <div className='hotline'>
