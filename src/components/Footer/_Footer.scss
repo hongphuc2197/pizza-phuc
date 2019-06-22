@@ -76,9 +76,6 @@
 
 
 
-.footer-1 .right-footer .hotline {
-    
-}
 .iconFooter {
     flex: 1;
     justify-content: flex-end;
@@ -157,6 +154,9 @@
 
 footer {
     bottom: 0;
+    // right:0;
+    // left:0;
+    //position: absolute;
     width: 100vw;
             /* Footer height */
   }

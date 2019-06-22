@@ -12,7 +12,7 @@ class Footer extends Component {
             <div className='row'>
               <div className='left-footer merge2'>
                 <div className='ModuleFooter'>
-                  <ul class='copyright'>
+                  <ul className="copyright">
                     <li className="iconCopy"><span >© 2019 DOMINO'S PIZZA VIETNAM </span></li>
                     <li className="iconCopy"><a href='#/' >PRIVACY POLICY</a></li>
                   </ul>
@@ -29,9 +29,9 @@ class Footer extends Component {
                     <img src={Visa} alt='visa' />
                 </div>
               </div>
-              <a class="hotline-fixed" href="tel:19006099">
+              <a className="hotline-fixed" href="tel:19006099">
                 <span>
-                  <i class="fas fa-phone"></i>
+                  <i className="fas fa-phone"></i>
                 </span>
               </a>
             </div>
