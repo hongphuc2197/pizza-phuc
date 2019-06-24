@@ -23,11 +23,11 @@ class Body extends Component {
                       <div class="tns-inner">
                         <ul class="nav nav-slider">
                           <li class="nav-item" id="item0" aria-hidden="true" tabindex="-1">
-                            <a class="nav-link" href="/en-US/promotion">
+                            <a class="nav-link" href="#/">
                               Promotion
                             </a>
                           </li>
-                          <li class="nav-item active" id="item1" aria-hidden="false">
+                          <li class="nav-item" id="item1" aria-hidden="false">
                             <a class="nav-link" href="#/" target="_self">
                               Pizza
                             </a>

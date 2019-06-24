@@ -1,8 +1,11 @@
 @import './../../styles/base/all.setting';
 
+///body
+.bodyPage {
+  padding-top: 3.8rem;
+}
+
 .domino-nav-1 {
-  margin-top: 1.25rem;
-  position: -webkit-sticky;
   position: sticky;
   top: 100px;
   z-index: 4
@@ -144,6 +147,9 @@
 ///////////////////////////
 
 @media (max-width:992px) {
+  // .bodyPage {
+  //   padding-top: 3vh;
+  //  }
   .domino-nav-1 .nav {
       -ms-flex-wrap: nowrap;
       flex-wrap: nowrap
@@ -166,8 +172,17 @@
 }
 
 @media (max-width:767px) {
+  // .bodyPage {
+  //   padding-top: 5vh;
+  //  }
   .domino-nav-1 {
       top: 60px;
       margin-top: 0
   }
+}
+
+@media (min-width:992px){
+  // .bodyPage {
+  //   padding-top: 4vh;
+  //  }
 }

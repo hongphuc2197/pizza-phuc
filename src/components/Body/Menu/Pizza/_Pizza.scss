@@ -1,0 +1,39 @@
+.containerPizza {
+    display: flex;
+    flex-direction: column;
+    >.titlePizza {
+        display: flex;
+        flex-direction: column;
+        >div{
+            >p{
+                font-weight: 900;
+                font-size: 1.2rem;
+                color: #04354c;
+                text-transform: uppercase;
+                font-family: 'K2D', sans-serif;
+                margin-bottom: 0px;
+            }
+        }
+        >.pricePizza {
+            display: flex;
+            flex-direction: row;
+            >.coverPizza {
+                display: flex;
+                padding-right: 2rem;
+                >.coverSize {
+                    padding-right: 1rem;
+                }
+                >.coverPrice{
+                    >p{
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+.pizzaPage {
+    height: 50vh;
+}
