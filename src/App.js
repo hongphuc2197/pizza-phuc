@@ -4,6 +4,7 @@ import Layout from './hoc/Layout/Layout'
 import HomePage from './container/Homepage/Homepage'
 import SignInPage from './container/SignInPage/SignInPage'
 import SignUpPage from './container/SignUpPage/SignUpPage'
+import OrderPage from './container/OrderPage/OrderPage'
 
 class App extends Component {
   render () {
@@ -14,6 +15,7 @@ class App extends Component {
             <Route path='/' exact component={HomePage} />
             <Route path='/signin' exact component={SignInPage} />
             <Route path='/signup' exact component={SignUpPage} />
+            <Route path='/order' exact component={OrderPage} />
 
           </Switch>
         </Layout>
