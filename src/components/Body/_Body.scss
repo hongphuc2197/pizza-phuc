@@ -2,66 +2,38 @@
 
 ///body
 .bodyPage {
-  padding-top: 3.8rem;
+  padding-top: 4rem;
 }
 
-.domino-nav-1 {
-  position: sticky;
-  top: 100px;
-  z-index: 4
-}
-
-.domino-nav-1 .tns-inner {
-  padding-bottom: 1rem
+.black{
+  background-color: black;
 }
 
 
-.domino-nav-1 .nav {
-  background: #000
-}
-
-.domino-nav-1 .nav .nav-item {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 20%;
-  flex: 0 0 20%;
+.domino-nav .nav .nav-item {
   text-align: center;
-  background: #000
 }
 
-.domino-nav-1 .nav .nav-item .nav-link {
-  font-size: 1.125rem;
+.domino-nav .nav .nav-item .nav-link {
+  font-size: 1.5rem;
   font-weight: 900;
   color: #fff;
   text-transform: uppercase
 }
 
-.domino-nav-1 .nav .nav-item.active,
-.domino-nav-1 .nav .nav-item:hover {
+.domino-nav .nav .nav-item.active,
+.domino-nav .nav .nav-item:hover {
   background: #e31837;
-  position: relative
+  position: relative;
 }
 
-.domino-nav-1 .nav .nav-item.active:before,
-.domino-nav-1 .nav .nav-item:hover:before {
-  content: '';
-  position: absolute;
-  width: 1rem;
-  height: 1rem;
-  background: #e31837;
-  left: 50%;
-  bottom: 0;
-  -webkit-transform: translateX(-50%) translateY(50%) rotate(45deg);
-  -ms-transform: translateX(-50%) translateY(50%) rotate(45deg);
-  transform: translateX(-50%) translateY(50%) rotate(45deg)
-}
-
-.domino-nav-1 .about-nav-controls {
+.domino-nav .about-nav-controls {
   position: absolute;
   width: 100%;
   z-index: 1
 }
 
-.domino-nav-1 .about-nav-controls span {
+.domino-nav .about-nav-controls span {
   position: absolute;
   display: block;
   width: 30px;
@@ -79,28 +51,28 @@
   align-items: center
 }
 
-.domino-nav-1 .about-nav-controls span i {
+.domino-nav .about-nav-controls span i {
   color: #999
 }
 
-.domino-nav-1 .about-nav-controls span:disabled {
+.domino-nav .about-nav-controls span:disabled {
   display: none
 }
 
-.domino-nav-1 .about-nav-controls .next {
+.domino-nav .about-nav-controls .next {
   right: 0
 }
 
 
 ////////////////////
 
-.domino-nav-1 .about-nav-controls {
+.domino-nav .about-nav-controls {
   position: absolute;
   width: 100%;
   z-index: 1
 }
 
-.domino-nav-1 .about-nav-controls span {
+.domino-nav .about-nav-controls span {
   position: absolute;
   display: block;
   width: 30px;
@@ -118,30 +90,27 @@
   align-items: center
 }
 
-.domino-nav-1 .about-nav-controls span i {
+.domino-nav .about-nav-controls span i {
   color: #999
 }
 
-.domino-nav-1 .about-nav-controls span:disabled {
+.domino-nav .about-nav-controls span:disabled {
   display: none
 }
 
-.domino-nav-1 .about-nav-controls .next {
+.domino-nav .about-nav-controls .next {
   right: 0
 }
 
 //////////////////////////////
 
-.domino-nav-1 .tns-inner {
-  padding-bottom: 1rem
-}
-
 /////////////////
 .nav-slider{
-  transition-duration:0s;
-  transform: translate3d(-20%, 0px, 0px);
+  display: flex;
 }
-
+ul.nav.nav-slider {
+  padding-top: 0.8rem;
+}
 
 
 ///////////////////////////
@@ -150,21 +119,21 @@
   // .bodyPage {
   //   padding-top: 3vh;
   //  }
-  .domino-nav-1 .nav {
+  .domino-nav .nav {
       -ms-flex-wrap: nowrap;
       flex-wrap: nowrap
   }
-  .domino-nav-1 .nav .nav-item {
+  .domino-nav .nav .nav-item {
       -webkit-box-flex: 1;
       -ms-flex: auto;
       flex: auto
   }
-  .domino-nav-1 .tns-inner .nav-slider {
+  .domino-nav .tns-inner .nav-slider {
     -webkit-transform: none!important;
     -ms-transform: none!important;
     transform: none!important
   }
-  .domino-nav-1 .container {
+  .domino-nav .container {
     max-width: 100%;
     margin: 0;
     padding: 0
@@ -175,7 +144,7 @@
   // .bodyPage {
   //   padding-top: 5vh;
   //  }
-  .domino-nav-1 {
+  .domino-nav {
       top: 60px;
       margin-top: 0
   }

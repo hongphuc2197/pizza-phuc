@@ -5,45 +5,42 @@ class Body extends Component {
   render () {
     return (
       <div className="bodyPage">
-        <section class="domino-nav-1">
+        <section className="domino-nav">
           <article>
-            <div class="Module Module-314">
-              <div class="ModuleContent">
-                <div class="about-nav-controls" aria-label="Carousel Navigation" tabindex="0">
-                  <span class="prev" tabindex="-1" data-controls="prev" aria-disabled="false">
-                    <i class="fas fa-chevron-left"></i>
+              <div className="ModuleContent">
+                <div className="about-nav-controls" aria-label="Carousel Navigation" tabIndex="0">
+                  <span className="prev" tabIndex="-1" data-controls="prev" aria-disabled="false">
+                    <i className="fas fa-chevron-left"></i>
                   </span>
-                  <span class="next" tabindex="-1" data-controls="next" aria-disabled="true">
-                    <i class="fas fa-chevron-right"></i>
+                  <span className="next" tabIndex="-1" data-controls="next" aria-disabled="true">
+                    <i className="fas fa-chevron-right"></i>
                   </span>
                 </div>
-                <div class="container">
-                  <div class="tns-outer">
-                    <div class="divCover">
-                      <div class="tns-inner">
-                        <ul class="nav nav-slider">
-                          <li class="nav-item" id="item0" aria-hidden="true" tabindex="-1">
-                            <a class="nav-link" href="#/">
+                <div className="container black">
+                    <div className="divCover">
+                        <ul className="nav nav-slider">
+                          <li className="nav-item" id="item0" aria-hidden="true" tabIndex="-1">
+                            <a className="nav-link" href="#/">
                               Promotion
                             </a>
                           </li>
-                          <li class="nav-item" id="item1" aria-hidden="false">
-                            <a class="nav-link" href="#/" target="_self">
+                          <li className="nav-item" id="item1" aria-hidden="false">
+                            <a className="nav-link" href="#/" target="_self">
                               Pizza
                             </a>
                           </li>
-                          <li class="nav-item" id="item2" aria-hidden="false">
-                            <a class="nav-link" href="#/" target="_self">
+                          <li className="nav-item" id="item2" aria-hidden="false">
+                            <a className="nav-link" href="#/" target="_self">
                               Sides
                             </a>
                           </li>
-                          <li class="nav-item" id="item3" aria-hidden="false">
-                            <a class="nav-link" href="#/" target="_self">
+                          <li className="nav-item" id="item3" aria-hidden="false">
+                            <a className="nav-link" href="#/" target="_self">
                               Drinks
                             </a>
                           </li>
-                          <li class="nav-item" id="item4" aria-hidden="false">
-                            <a class="nav-link" href="#/" target="_self">
+                          <li className="nav-item" id="item4" aria-hidden="false">
+                            <a className="nav-link" href="#/" target="_self">
                               Dessert
                             </a>
                           </li>
@@ -51,9 +48,7 @@ class Body extends Component {
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
+               
           </article>
         </section>
       </div>
