@@ -16,7 +16,6 @@ class App extends Component {
             <Route path='/signin' exact component={SignInPage} />
             <Route path='/signup' exact component={SignUpPage} />
             <Route path='/order' exact component={OrderPage} />
-
           </Switch>
         </Layout>
       </div>
