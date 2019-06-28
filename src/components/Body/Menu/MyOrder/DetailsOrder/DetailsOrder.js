@@ -6,36 +6,33 @@ class DetailsOrder extends Component {
         super(props);
         this.state = {
             clicks: 0,
-            show: true,
-            isOpen: true
         };
     }
-  
+
     IncrementItem = () => {
         this.setState({ clicks: this.state.clicks + 1 });
     }
     DecreaseItem = () => {
         this.setState({ clicks: this.state.clicks - 1 });
     }
-    
-  
+
     render() {
         return (
             <div>
                 <div className="bodyOrder bodyDetailsOrder">
-                    <div className="container">
+                    <div className="container containerDetailsOrder">
                         <div className="detailsPizza">
                             <div>
-                                <p>Chi tiết đơn hàng</p>
+                                <p className="titleP">Chi tiết đơn hàng</p>
                             </div>
                             <div className="pizzaName">
-                                <p className="detailsOrder">
+                                <p className="">
                                     <span className="sizePizza">9"</span>
                                     <span>Name of Pizza</span>
                                 </p>
                             </div>
                         </div>
-            
+
                         <div className="amountAndPrice">
                             <div className="amountOfPizza">
                                 <div>
@@ -58,23 +55,25 @@ class DetailsOrder extends Component {
                                 <p>x59.000 đ</p>
                             </div>
                         </div>
-                   
+
                     <div className="totalBill">
                         <div className="elmBill">
                             <div>
                                 <p>Tổng cộng:</p>
                             </div>
                             <div>
-                                <p>472.000d</p>
+                                <p>472.000đ</p>
                             </div>
                         </div>
                     </div>
-                    <div className="divPayment">
-                        <button className="Payment">
-                            Thanh toán
-                        </button>
+                    <div className="coverPayment">
+                        <div className="divPayment">
+                            <button className="Payment">
+                                Thanh toán
+                            </button>
+                        </div>
                     </div>
-
+                    
                     </div>
                     </div>
 
