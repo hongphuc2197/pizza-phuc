@@ -5,6 +5,7 @@ import HomePage from './container/Homepage/Homepage'
 import SignInPage from './container/SignInPage/SignInPage'
 import SignUpPage from './container/SignUpPage/SignUpPage'
 import OrderPage from './container/OrderPage/OrderPage'
+import CheckoutPage from './container/CheckoutPage/CheckoutPage';
 
 class App extends Component {
   render () {
@@ -16,6 +17,7 @@ class App extends Component {
             <Route path='/signin' exact component={SignInPage} />
             <Route path='/signup' exact component={SignUpPage} />
             <Route path='/order' exact component={OrderPage} />
+            <Route path='/checkout' exact component={CheckoutPage} />
           </Switch>
         </Layout>
       </div>

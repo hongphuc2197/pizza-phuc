@@ -73,7 +73,7 @@ class DetailsOrder extends Component {
                             </button>
                         </div>
                     </div>
-                    
+
                     </div>
                     </div>
 
